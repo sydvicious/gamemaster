@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6210AB8822C840FD00E10F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210AB8722C840FD00E10F81 /* AppDelegate.swift */; };
+		6210AB8A22C840FD00E10F81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210AB8922C840FD00E10F81 /* SceneDelegate.swift */; };
+		6210AB8D22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6210AB8B22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodeld */; };
+		6210AB8F22C840FD00E10F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210AB8E22C840FD00E10F81 /* ContentView.swift */; };
+		6210AB9122C840FF00E10F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6210AB9022C840FF00E10F81 /* Assets.xcassets */; };
+		6210AB9422C840FF00E10F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6210AB9322C840FF00E10F81 /* Preview Assets.xcassets */; };
+		6210AB9722C840FF00E10F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6210AB9522C840FF00E10F81 /* LaunchScreen.storyboard */; };
+		6210ABA222C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210ABA122C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift */; };
+		6210ABAD22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210ABAC22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6210AB9E22C840FF00E10F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6210AB7C22C840FD00E10F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6210AB8322C840FD00E10F81;
+			remoteInfo = "BoneJarring Pathfinder Game Master";
+		};
+		6210ABA922C840FF00E10F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6210AB7C22C840FD00E10F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6210AB8322C840FD00E10F81;
+			remoteInfo = "BoneJarring Pathfinder Game Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6210AB8422C840FD00E10F81 /* BoneJarring Pathfinder Game Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BoneJarring Pathfinder Game Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6210AB8722C840FD00E10F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6210AB8922C840FD00E10F81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6210AB8C22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoneJarring_Pathfinder_Game_Master.xcdatamodel; sourceTree = "<group>"; };
+		6210AB8E22C840FD00E10F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6210AB9022C840FF00E10F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6210AB9322C840FF00E10F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6210AB9622C840FF00E10F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6210AB9822C840FF00E10F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6210AB9D22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BoneJarring Pathfinder Game MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6210ABA122C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneJarring_Pathfinder_Game_MasterTests.swift; sourceTree = "<group>"; };
+		6210ABA322C840FF00E10F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6210ABA822C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BoneJarring Pathfinder Game MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6210ABAC22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneJarring_Pathfinder_Game_MasterUITests.swift; sourceTree = "<group>"; };
+		6210ABAE22C840FF00E10F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6210ABBA22C8414100E10F81 /* BoneJarring Pathfinder Game Master.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BoneJarring Pathfinder Game Master.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6210AB8122C840FD00E10F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6210AB9A22C840FF00E10F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6210ABA522C840FF00E10F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6210AB7B22C840FD00E10F81 = {
+			isa = PBXGroup;
+			children = (
+				6210AB8622C840FD00E10F81 /* BoneJarring Pathfinder Game Master */,
+				6210ABA022C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests */,
+				6210ABAB22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests */,
+				6210AB8522C840FD00E10F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6210AB8522C840FD00E10F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6210AB8422C840FD00E10F81 /* BoneJarring Pathfinder Game Master.app */,
+				6210AB9D22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests.xctest */,
+				6210ABA822C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6210AB8622C840FD00E10F81 /* BoneJarring Pathfinder Game Master */ = {
+			isa = PBXGroup;
+			children = (
+				6210ABBA22C8414100E10F81 /* BoneJarring Pathfinder Game Master.entitlements */,
+				6210AB8722C840FD00E10F81 /* AppDelegate.swift */,
+				6210AB8922C840FD00E10F81 /* SceneDelegate.swift */,
+				6210AB8E22C840FD00E10F81 /* ContentView.swift */,
+				6210AB9022C840FF00E10F81 /* Assets.xcassets */,
+				6210AB9522C840FF00E10F81 /* LaunchScreen.storyboard */,
+				6210AB9822C840FF00E10F81 /* Info.plist */,
+				6210AB8B22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodeld */,
+				6210AB9222C840FF00E10F81 /* Preview Content */,
+			);
+			path = "BoneJarring Pathfinder Game Master";
+			sourceTree = "<group>";
+		};
+		6210AB9222C840FF00E10F81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6210AB9322C840FF00E10F81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6210ABA022C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6210ABA122C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift */,
+				6210ABA322C840FF00E10F81 /* Info.plist */,
+			);
+			path = "BoneJarring Pathfinder Game MasterTests";
+			sourceTree = "<group>";
+		};
+		6210ABAB22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6210ABAC22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift */,
+				6210ABAE22C840FF00E10F81 /* Info.plist */,
+			);
+			path = "BoneJarring Pathfinder Game MasterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6210AB8322C840FD00E10F81 /* BoneJarring Pathfinder Game Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6210ABB122C840FF00E10F81 /* Build configuration list for PBXNativeTarget "BoneJarring Pathfinder Game Master" */;
+			buildPhases = (
+				6210AB8022C840FD00E10F81 /* Sources */,
+				6210AB8122C840FD00E10F81 /* Frameworks */,
+				6210AB8222C840FD00E10F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoneJarring Pathfinder Game Master";
+			productName = "BoneJarring Pathfinder Game Master";
+			productReference = 6210AB8422C840FD00E10F81 /* BoneJarring Pathfinder Game Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6210AB9C22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6210ABB422C840FF00E10F81 /* Build configuration list for PBXNativeTarget "BoneJarring Pathfinder Game MasterTests" */;
+			buildPhases = (
+				6210AB9922C840FF00E10F81 /* Sources */,
+				6210AB9A22C840FF00E10F81 /* Frameworks */,
+				6210AB9B22C840FF00E10F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6210AB9F22C840FF00E10F81 /* PBXTargetDependency */,
+			);
+			name = "BoneJarring Pathfinder Game MasterTests";
+			productName = "BoneJarring Pathfinder Game MasterTests";
+			productReference = 6210AB9D22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6210ABA722C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6210ABB722C840FF00E10F81 /* Build configuration list for PBXNativeTarget "BoneJarring Pathfinder Game MasterUITests" */;
+			buildPhases = (
+				6210ABA422C840FF00E10F81 /* Sources */,
+				6210ABA522C840FF00E10F81 /* Frameworks */,
+				6210ABA622C840FF00E10F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6210ABAA22C840FF00E10F81 /* PBXTargetDependency */,
+			);
+			name = "BoneJarring Pathfinder Game MasterUITests";
+			productName = "BoneJarring Pathfinder Game MasterUITests";
+			productReference = 6210ABA822C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6210AB7C22C840FD00E10F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Syd Polk";
+				TargetAttributes = {
+					6210AB8322C840FD00E10F81 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6210AB9C22C840FF00E10F81 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6210AB8322C840FD00E10F81;
+					};
+					6210ABA722C840FF00E10F81 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6210AB8322C840FD00E10F81;
+					};
+				};
+			};
+			buildConfigurationList = 6210AB7F22C840FD00E10F81 /* Build configuration list for PBXProject "gamemaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6210AB7B22C840FD00E10F81;
+			productRefGroup = 6210AB8522C840FD00E10F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6210AB8322C840FD00E10F81 /* BoneJarring Pathfinder Game Master */,
+				6210AB9C22C840FF00E10F81 /* BoneJarring Pathfinder Game MasterTests */,
+				6210ABA722C840FF00E10F81 /* BoneJarring Pathfinder Game MasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6210AB8222C840FD00E10F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6210AB9722C840FF00E10F81 /* LaunchScreen.storyboard in Resources */,
+				6210AB9422C840FF00E10F81 /* Preview Assets.xcassets in Resources */,
+				6210AB9122C840FF00E10F81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6210AB9B22C840FF00E10F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6210ABA622C840FF00E10F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6210AB8022C840FD00E10F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6210AB8D22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodeld in Sources */,
+				6210AB8822C840FD00E10F81 /* AppDelegate.swift in Sources */,
+				6210AB8F22C840FD00E10F81 /* ContentView.swift in Sources */,
+				6210AB8A22C840FD00E10F81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6210AB9922C840FF00E10F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6210ABA222C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6210ABA422C840FF00E10F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6210ABAD22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6210AB9F22C840FF00E10F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6210AB8322C840FD00E10F81 /* BoneJarring Pathfinder Game Master */;
+			targetProxy = 6210AB9E22C840FF00E10F81 /* PBXContainerItemProxy */;
+		};
+		6210ABAA22C840FF00E10F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6210AB8322C840FD00E10F81 /* BoneJarring Pathfinder Game Master */;
+			targetProxy = 6210ABA922C840FF00E10F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6210AB9522C840FF00E10F81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6210AB9622C840FF00E10F81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6210ABAF22C840FF00E10F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6210ABB022C840FF00E10F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6210ABB222C840FF00E10F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BoneJarring Pathfinder Game Master/BoneJarring Pathfinder Game Master.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BoneJarring Pathfinder Game Master\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = R5PQPZARC5;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BoneJarring Pathfinder Game Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonejarring.BoneJarring-Pathfinder-Game-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6210ABB322C840FF00E10F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BoneJarring Pathfinder Game Master/BoneJarring Pathfinder Game Master.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BoneJarring Pathfinder Game Master\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = R5PQPZARC5;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BoneJarring Pathfinder Game Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonejarring.BoneJarring-Pathfinder-Game-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6210ABB522C840FF00E10F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BoneJarring Pathfinder Game MasterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonejarring.BoneJarring-Pathfinder-Game-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoneJarring Pathfinder Game Master.app/BoneJarring Pathfinder Game Master";
+			};
+			name = Debug;
+		};
+		6210ABB622C840FF00E10F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BoneJarring Pathfinder Game MasterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonejarring.BoneJarring-Pathfinder-Game-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoneJarring Pathfinder Game Master.app/BoneJarring Pathfinder Game Master";
+			};
+			name = Release;
+		};
+		6210ABB822C840FF00E10F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BoneJarring Pathfinder Game MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonejarring.BoneJarring-Pathfinder-Game-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BoneJarring Pathfinder Game Master";
+			};
+			name = Debug;
+		};
+		6210ABB922C840FF00E10F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BoneJarring Pathfinder Game MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonejarring.BoneJarring-Pathfinder-Game-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BoneJarring Pathfinder Game Master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6210AB7F22C840FD00E10F81 /* Build configuration list for PBXProject "gamemaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6210ABAF22C840FF00E10F81 /* Debug */,
+				6210ABB022C840FF00E10F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6210ABB122C840FF00E10F81 /* Build configuration list for PBXNativeTarget "BoneJarring Pathfinder Game Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6210ABB222C840FF00E10F81 /* Debug */,
+				6210ABB322C840FF00E10F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6210ABB422C840FF00E10F81 /* Build configuration list for PBXNativeTarget "BoneJarring Pathfinder Game MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6210ABB522C840FF00E10F81 /* Debug */,
+				6210ABB622C840FF00E10F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6210ABB722C840FF00E10F81 /* Build configuration list for PBXNativeTarget "BoneJarring Pathfinder Game MasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6210ABB822C840FF00E10F81 /* Debug */,
+				6210ABB922C840FF00E10F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6210AB8B22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6210AB8C22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodel */,
+			);
+			currentVersion = 6210AB8C22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodel */;
+			path = BoneJarring_Pathfinder_Game_Master.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6210AB7C22C840FD00E10F81 /* Project object */;
+}
