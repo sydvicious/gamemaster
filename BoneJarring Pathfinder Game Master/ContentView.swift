@@ -11,8 +11,7 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         HStack(alignment: .top) {
-            Spacer()
-            ScrollView() {
+            ScrollView(.vertical, showsIndicators: true) {
                 VStack(alignment: .center) {
                     Text("Bone Jarring Game Master System")
                     Text("Campaign Name: Choria")
@@ -22,10 +21,10 @@ struct ContentView : View {
                 HStack(alignment: .top) {
                     Text("Hello World")
                     Spacer()
+                    Text("Goodbye World")
                 }.padding().border(Color.red, width: 2.0)
                 Spacer()
             }.padding()
-            Spacer()
         }
     }
 }
