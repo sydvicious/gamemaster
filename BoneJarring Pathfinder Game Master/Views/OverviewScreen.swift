@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct OverviewScreen : View {
     var body: some View {
         HStack(alignment: .top) {
             ScrollView(.vertical, showsIndicators: true) {
@@ -32,7 +32,8 @@ struct ContentView : View {
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OverviewScreen()
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro"))
     }
 }
 #endif
