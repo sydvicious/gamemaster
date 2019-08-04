@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct OverviewScreen : View {
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
         HStack(alignment: .top) {
             ScrollView(.vertical, showsIndicators: true) {
                 VStack(alignment: .center) {
                     Text("Bone Jarring Game Master System")
                     Text("Campaign Name: Choria")
-                    Text("Game Master Name: Syd Polk" )
+                    Text("Game Master Name: \(self.userData.name)")
                     }.padding().border(Color.black, width: 2.0)
                 Spacer()
                 HStack(alignment: .top) {
@@ -33,6 +35,7 @@ struct OverviewScreen : View {
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         OverviewScreen()
+            .environmentObject(UserData())
             .previewDevice(PreviewDevice(rawValue: "iPad Pro"))
     }
 }

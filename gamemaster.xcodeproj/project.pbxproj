@@ -16,6 +16,8 @@
 		6210AB9722C840FF00E10F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6210AB9522C840FF00E10F81 /* LaunchScreen.storyboard */; };
 		6210ABA222C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210ABA122C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterTests.swift */; };
 		6210ABAD22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210ABAC22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift */; };
+		6220544022F652A100D5D82B /* ToplevelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6220543F22F652A100D5D82B /* ToplevelContainer.swift */; };
+		6220544222F65E2E00D5D82B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6220544122F65E2E00D5D82B /* UserData.swift */; };
 		62E75EA222D97C0800208BA4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E75EA122D97C0800208BA4 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		6210ABAC22C840FF00E10F81 /* BoneJarring_Pathfinder_Game_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneJarring_Pathfinder_Game_MasterUITests.swift; sourceTree = "<group>"; };
 		6210ABAE22C840FF00E10F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6210ABBA22C8414100E10F81 /* BoneJarring Pathfinder Game Master.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BoneJarring Pathfinder Game Master.entitlements"; sourceTree = "<group>"; };
+		6220543F22F652A100D5D82B /* ToplevelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToplevelContainer.swift; sourceTree = "<group>"; };
+		6220544122F65E2E00D5D82B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		62E75EA122D97C0800208BA4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,7 @@
 		6210AB8622C840FD00E10F81 /* BoneJarring Pathfinder Game Master */ = {
 			isa = PBXGroup;
 			children = (
+				628F49E722F3D8A900F21B2E /* Models */,
 				62E75EA022D97BE800208BA4 /* Views */,
 				6210ABBA22C8414100E10F81 /* BoneJarring Pathfinder Game Master.entitlements */,
 				6210AB8722C840FD00E10F81 /* AppDelegate.swift */,
@@ -143,11 +148,20 @@
 			path = "BoneJarring Pathfinder Game MasterUITests";
 			sourceTree = "<group>";
 		};
+		628F49E722F3D8A900F21B2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6220544122F65E2E00D5D82B /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		62E75EA022D97BE800208BA4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6210AB8E22C840FD00E10F81 /* OverviewScreen.swift */,
 				62E75EA122D97C0800208BA4 /* LoginScreen.swift */,
+				6210AB8E22C840FD00E10F81 /* OverviewScreen.swift */,
+				6220543F22F652A100D5D82B /* ToplevelContainer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,6 +299,8 @@
 			files = (
 				6210AB8D22C840FD00E10F81 /* BoneJarring_Pathfinder_Game_Master.xcdatamodeld in Sources */,
 				6210AB8822C840FD00E10F81 /* AppDelegate.swift in Sources */,
+				6220544222F65E2E00D5D82B /* UserData.swift in Sources */,
+				6220544022F652A100D5D82B /* ToplevelContainer.swift in Sources */,
 				6210AB8F22C840FD00E10F81 /* OverviewScreen.swift in Sources */,
 				6210AB8A22C840FD00E10F81 /* SceneDelegate.swift in Sources */,
 				62E75EA222D97C0800208BA4 /* LoginScreen.swift in Sources */,
