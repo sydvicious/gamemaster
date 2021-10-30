@@ -18,7 +18,7 @@ struct OverviewScreen : View {
                     Text("Bone Jarring Game Master System")
                     Text("Campaign Name: Choria")
                     Text("Game Master Name: \(self.userData.name)")
-                    }.padding().border(Color.black, width: 2.0)
+                }.padding().border(Color.black, width: 2.0)
                 Spacer()
                 HStack(alignment: .top) {
                     Text("Hello World")
